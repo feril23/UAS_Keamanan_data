@@ -1,5 +1,4 @@
 # UAS_Keamanan_data
-# README
 
 **Nama**: Feril Ferdian  
 **Tugas**: UAS Praktikum Keamanan Data dan Informasi
