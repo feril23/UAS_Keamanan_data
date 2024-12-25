@@ -12,10 +12,10 @@ Repository ini berisi implementasi beberapa metode keamanan data, yaitu:
    File: `caesar_cipher.py`
    
 2. **Data Encryption Standard (DES)**  
-   File: `des_encryption.py`
+   File: `des.py`
 
 3. **Steganography (Stegano)**  
-   File: `steganography.py`
+   File: `steganoo.py`
 
 ## Cara Menjalankan
 
@@ -44,7 +44,7 @@ Pastikan Anda memiliki Python versi 3.x terinstal di komputer Anda. Jika belum, 
    - **DES Encryption**  
      Jalankan file `des.py` dengan perintah berikut:
      ```bash
-     python des_encryption.py
+     python des.py
      ```
      Jika file GUI telah tersedia, jalankan program untuk melakukan enkripsi dan dekripsi melalui antarmuka grafis.
 
