@@ -25,27 +25,14 @@ Pastikan Anda memiliki Python versi 3.x terinstal di komputer Anda. Jika belum, 
 
 ### Langkah-langkah
 
-1. **Clone Repository**
+1. **Instalasi Library yang Diperlukan**
 
-   Clone repository ini ke dalam komputer Anda:
+   Pastikan untuk menginstal library seperti `pycryptodome`, `tkinter`, `stegano` dan `Pillow` untuk mendukung implementasi DES, steganografi dalam bentuk GUI:
    ```bash
-   git clone https://github.com/username/keamanan-data-informasi.git
-   cd keamanan-data-informasi
+   pip install pycryptodome pillow tkinter stegano
    ```
 
-2. **Instalasi Library yang Diperlukan**
-
-   Beberapa file mungkin memerlukan library tambahan. Anda dapat menginstalnya dengan menjalankan perintah berikut:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   Jika file `requirements.txt` belum ada, pastikan untuk menginstal library seperti `pycryptodome` dan `Pillow` untuk mendukung implementasi DES dan steganografi:
-   ```bash
-   pip install pycryptodome pillow
-   ```
-
-3. **Menjalankan Program**
+2. **Menjalankan Program**
 
    - **Caesar Cipher**  
      Jalankan file `caesar_cipher.py` dengan perintah berikut:
@@ -55,16 +42,16 @@ Pastikan Anda memiliki Python versi 3.x terinstal di komputer Anda. Jika belum, 
      Ikuti petunjuk yang ada pada layar untuk mengenkripsi atau mendekripsi teks.
 
    - **DES Encryption**  
-     Jalankan file `des_encryption.py` dengan perintah berikut:
+     Jalankan file `des.py` dengan perintah berikut:
      ```bash
      python des_encryption.py
      ```
      Jika file GUI telah tersedia, jalankan program untuk melakukan enkripsi dan dekripsi melalui antarmuka grafis.
 
    - **Steganography**  
-     Jalankan file `steganography.py` dengan perintah berikut:
+     Jalankan file `steganoo.py` dengan perintah berikut:
      ```bash
-     python steganography.py
+     python steganoo.py
      ```
      Pastikan file gambar tersedia jika Anda ingin menyembunyikan pesan di dalam gambar atau mengekstraknya.
 
@@ -72,8 +59,4 @@ Pastikan Anda memiliki Python versi 3.x terinstal di komputer Anda. Jika belum, 
 
 - Pastikan semua dependensi terinstal sebelum menjalankan program.
 - Jika ada masalah atau error saat menjalankan program, periksa kembali prasyarat dan instalasi library.
-
----
-
-Dibuat oleh Feril Ferdian untuk keperluan tugas UAS Praktikum Keamanan Data dan Informasi.
 
